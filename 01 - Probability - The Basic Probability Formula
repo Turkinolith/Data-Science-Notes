@@ -1,0 +1,85 @@
+
+*********************
+**** Probability ****
+*********************
+
+** Bayesian Inference **
+Convey the relationships between elements, sets, and events.
+
+** Distributions ** 
+Are the main way we lie to classify sets of data. If a dataset complies with certain characteristics, we can
+usually attribute the likelihood of its values to a specific distribution. Since many of these distributions have elegant
+relationships between certain outcomes and their probabilities of occurring, knowing key features of our data is
+extremely convenient and useful.
+
+** Probability ** 
+The Likelihood of an event occurring.
+
+P(X) = (Preferred outcomes) / (Sample Space)
+
+• The Probability of event X occurring equals the number of preferred outcomes over the number of outcomes in the sample space.
+• Preferred outcomes are the outcomes we want to occur or the outcomes we are interested in. We also call refer to such outcomes as “Favorable”.
+• Sample space refers to all possible outcomes that can occur. Its “size” indicates the amount of elements in it.
+
+**If two events are independent:
+The probability of them occuring simultaneously equals the product of them occuring on their own.
+P(AB) = P(A) * P(B)
+
+
+
+*************************
+**** Expected Values ****
+*************************
+Trial - Observing an event occur and recording the outcomes.
+Experiment - a collection of one or more trials.
+Experimental Probability - The probability we assign an event, based on an experiment we conduct.
+Expected value - The specific outcome we expect to occur when an experiment is ran.
+
+Example: Trial, flipping a coin and recording the outcome.
+Example: Experiment, flipping a coin 20 times and recording the 20 individual outcomes.
+
+In this instance, the experimental probability for getting heads would equal the number of heads recorded over the course of the 20 outcomes, over the total number of trials (20 in this case).
+
+The expected value can be numerical, bool, categorical, or other depending on the type of event we are interested in. For instance, the expected value of the trial would be the more likely of the two outcomes, 
+whereas the expected value of the experiment will be the number of time we expect to get either heads or tails after the 20 trials. 
+
+Expected value for categorical variables. E(X) = n X p
+
+Expected value for numeric variables: E(X) = sigma(n on top, i=1)x(i) * p(i)
+
+
+********************************************
+**** Probability Frequency Distribution ****
+********************************************
+What is a probability frequency distribution?:
+A collection of the probabilities for each possible outcome of an event.
+
+Why do we need frequency distributions?:
+We need the probability frequency distribution to try and predict future events when the expected value is unattainable.
+
+What is a frequency?:
+Frequency is the number of times a given value or outcome appears in the sample space.
+
+What is a frequency distribution table?:
+The frequency distribution table is a table matching each distinct outcome in the sample space to its associated frequency.
+
+How do we obtain the probability frequency distribution from the frequency distribution table?:
+By dividing every frequency by the size of the sample space.
+(Think about the “favoured over all” formula.)
+
+
+*********************
+**** Complements ****
+*********************
+The complement of an event is everything an event is not. We denote the complement of an event with an apostrophe
+
+A' = Not A
+
+Characteristics of complements:
+• Can never occur simultaneously.
+• Add up to the sample space. (A + A’ = Sample space)
+• Their probabilities add up to 1. (P(A) + P(A’) = 1)
+• The complement of a complement is the original event. (A’)’ = A
+Example:
+• Assume event A represents drawing a spade from a standard deck of 52 playing cards (no jokers), so P(A) = 0.25.
+• Then, A’ represents not drawing a spade, so drawing a club, a diamond or a heart. P(A’) = 1 – P(A), so P(A’) = 0.75
